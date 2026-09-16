@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Booking - PetLover</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nav"><a class="logo" href="index.html"><span>Pet</span>Lover</a><button class="menu-btn"
+            onclick="toggleMenu()">☰</button>
+        <nav id="navLinks"><a href="index.html">Home</a><a href="about.html">About</a><a
+                href="services.html">Service</a><a href="price.html">Price</a><a class="active"
+                href="booking.html">Booking</a><a href="contact.html">Contact</a><a class="quote"
+                href="booking.html">Get Quote</a></nav>
+    </header>
+    <div class="page-head">
+        <h1>Book For Your Pet</h1>
+        <p>Home / Booking</p>
+    </div>
+    <section class="booking-page">
+        <form id="bookingForm">
+            <h2>Make An Appointment</h2><input required placeholder="Your Name"><input required type="email"
+                placeholder="Your Email"><input required type="tel" placeholder="Phone Number"><input required
+                type="date"><select required>
+                <option value="">Select Service</option>
+                <option>Pet Boarding</option>
+                <option>Pet Feeding</option>
+                <option>Pet Grooming</option>
+                <option>Pet Training</option>
+                <option>Pet Exercise</option>
+                <option>Pet Treatment</option>
+            </select><textarea placeholder="Special instructions"></textarea><button class="btn orange"
+                type="submit">Book Now</button>
+        </form>
+        <div class="booking-copy">
+            <p class="green">Going for a vacation?</p>
+            <h2>Book For <span>Your Pet</span></h2>
+            <p>Give your pet a safe, comfortable and caring stay while you are away.</p>
+            <ul class="checks">
+                <li>✓ Professional pet care</li>
+                <li>✓ Clean and secure facility</li>
+                <li>✓ Flexible service options</li>
+                <li>✓ Friendly support</li>
+            </ul>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
